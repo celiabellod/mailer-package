@@ -1,0 +1,29 @@
+{
+    "name": "celia/mailer",
+    "description": "Package for mailer",
+    "keywords": [
+        "Mail",
+        "Mailing"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Célia BELLOD",
+            "email": "celiabellod@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "celia\\mailer\\": "src/"
+        }
+    },
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/c-lia/"},
+        {"packagist.org": false}
+    ],
+    "minimum-stability": "dev"
+}
